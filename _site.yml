@@ -1,7 +1,7 @@
 name: "personal-website"
 output_dir: "."
 navbar:
-  title: "Personal Website"
+  title: "Jackson Chou"
   left:
     - text: "Home"
       href: index.html
@@ -10,7 +10,14 @@ navbar:
     - text: "About Me"
       href: about.html
       
+  right:      
+      - icon: fa-linkedin fa-2x
+        href: https://www.linkedin.com/in/jacksonchou/   
+      - icon: fa-github fa-2x
+        href: https://github.com/JacksonChou
+      
+     
 output:
   html_document:
-    theme: flatly
+    theme: simplex
     css: style.css
